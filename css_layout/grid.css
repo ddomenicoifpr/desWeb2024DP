@@ -1,0 +1,28 @@
+#container {
+    display: grid;
+    grid-template-rows: 100px 300px 80px;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "secCabec secCabec"
+                         "secMenu secCont"
+                         "secRodape secRodape";
+}
+
+#cabecalho {
+    background-color: lightblue;
+    grid-area: secCabec;
+}
+
+#menu {
+    background-color: yellow;
+    grid-area: secMenu;
+}
+
+#conteudo {
+    background-color: green;
+    grid-area: secCont;
+}
+
+#rodape {
+    background-color: pink;
+    grid-area: secRodape;
+}

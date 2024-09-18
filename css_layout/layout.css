@@ -1,0 +1,21 @@
+#cabecalho {
+    background-color: lightblue;
+    height: 80px;
+}
+
+#menu {
+    background-color: yellow;
+    height: 200px;
+    float: left;
+    width: 150px;
+}
+
+#conteudo {
+    background-color: green;
+    height: 200px;
+}
+
+#rodape {
+    background-color: pink;
+    height: 80px;
+}
